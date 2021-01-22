@@ -1,4 +1,4 @@
-# test_speed
+# Test Speed
 A Python App for test how many words you can type in a minute
 
 Downdload the project, then run main.py

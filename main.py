@@ -1,6 +1,4 @@
-from threading import Timer
-import time
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt6 import QtWidgets
 
 from ui import Ui_MainWindow
 
@@ -12,4 +10,4 @@ if __name__ == "__main__":
         ui = Ui_MainWindow()
         ui.setupUi(MainWindow)
         MainWindow.show()
-        app.exec_()
+        app.exec()
